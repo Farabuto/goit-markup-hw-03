@@ -5,6 +5,24 @@
 /* focus тег фокусированя */
 /* hover туг наведеня */
 /* active зажиаєш і міняє колік */
+p,h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+li,ul{
+  padding-left: 0;
+  margin: 0;
+}
+.container{
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline:1px solid red;
+}
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 126px;
+}
 body {
   font-family: Roboto;
 }
@@ -26,6 +44,9 @@ body {
   color:#212121;
 }
 
+.product{
+  padding-bottom: 154px;
+}
 .site-nav{
   font-weight: 500;
   font-size: 14px;
@@ -76,6 +97,9 @@ color:var(--accent-color);
   color: #2196F3;
 }
 
+.aside{
+  padding-bottom: 50px;
+}
 .aside-nav{
 background-color: #F5F4FA;
 font-family: 'Roboto';
@@ -95,6 +119,8 @@ line-height: 26px;
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
+  padding-bottom: 4px;
+  padding-top: 20px;
 }
 .lead{
   color: #757575;
