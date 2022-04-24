@@ -10,7 +10,7 @@ li,ul{
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline:1px solid red;
+    /*outline:1px solid red;*/
 }
 body{
     font-family: Roboto,sans-serif; 
@@ -31,9 +31,31 @@ body{
     color: #212121;
 }
 
+.page-header .container  {
+    display: flex;
+    align-items: center;
+}
+.header-list{
+    display: flex;
+}
+.header-contact{
+    display: flex;
+}
+.logo{
+    margin-right: 93px;
+}
+.contact-flex{
+    margin-left: auto;
+}
+.header-item:not(:last-child){
+    margin-right: 50px;
+}
+/*.nav-flex{*/
+/*    display: flex;*/
+/*}*/
 .page-header{
     padding-top: 24px;
-    padding-bottom: 232px;
+    padding-bottom: 32px;
 }
 
 .site-nav{
@@ -97,6 +119,10 @@ body{
     font-size: 44px;
     line-height: 60px;
     padding-bottom: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+
 }
 .button{
     background-color:var(--accent-color);
@@ -109,7 +135,15 @@ body{
     height: 50px;
 }
 .padding-bottom{
-    padding-bottom: 294px;
+    padding-bottom: 280px;
+    padding-top: 200px;
+    background: #2F303A;
+}
+.button{
+    margin: 0 auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
 }
 .button:focus,
 .button:hover,
@@ -121,10 +155,23 @@ body{
 .order{
     color: #ffffff;
     display: block;
+    /*margin-bottom: 200px;*/
 }
+.activity-text{
+    display: flex;
+}
+.activity-item{
+    padding-right: 30px;
+    /*margin-right: 30px;*/
+    flex: auto;
+    /*max-width: 270px;*/
+    flex-basis: calc(100%/4-30px);
+    /*text-align: center;*/
 
+}
 .activity{
     padding-bottom: 94px;
+    padding-top: 94px;
 }
 .text-subject{
     font-family: 'Roboto';
@@ -132,6 +179,9 @@ body{
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
+    width: 270px;
+    position: absolute;
+    /*align-items: center;*/
 }
 .text{
     color: #757575;
@@ -150,7 +200,13 @@ body{
     padding-bottom: 10px;
 }
 .lesson-section{
-    padding-bottom: 188px;
+    padding-bottom: 94px;
+}
+.activity-img{
+    padding-right: 30px;
+    display: flex;
+    /*align-items: center;*/
+    /*flex-basis: calc(100%/3-30px)*/
 }
 .heading{
     font-weight: 700;
@@ -169,26 +225,61 @@ body{
 }
 .items{
     background-color: #F5F4FA;
-    padding-bottom: 154px;
+    padding-bottom: 94px;
+    padding-top: 94px;
 }
 /*.padding-lesson{*/
 /*    padding-bottom: 50px;*/
 /*}*/
 
+.card{
+    display: flex;
+}
+.heading-card{
+    background-color: #F5F4FA;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    background-color: #ffffff;
+    margin-right: 30px;
+    max-width: 270px;
+
+    /*align-items: center;*/
+}
+.card-text{
+    align-items: center;
+    text-align: center;
+}
+.cart-position{
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.footer-pad{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 .footer {
     background-color: #2F303A;
+    /*flex: auto;*/
 }
 .footer-map {
     color: #ffffff;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
+    /*padding-top: 20px;*/
 }
 .footer-contact {
     color: rgba(255, 255, 255, 0.6);
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
+}
+.footer-list{
+    padding-top: 20px;
+}
+.footer-list-pad{
+    padding-bottom: 9px;
 }
 .footer-contact:focus,
 .footer-contact:hover,
