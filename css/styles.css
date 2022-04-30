@@ -188,6 +188,7 @@ body{
     line-height: 24px;
     width:270px;
     color: #757575;
+    letter-spacing: 0.03em;
 
     /*max-width: 270px;*/
     /*position: absolute;*/
