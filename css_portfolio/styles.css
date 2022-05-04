@@ -68,9 +68,6 @@ header{
   margin-right: 50px;
 }
 
-/*.product{*/
-/*  padding-bottom: 154px;*/
-/*}*/
 .site-nav{
   font-weight: 500;
   font-size: 14px;
@@ -127,9 +124,7 @@ color:var(--accent-color);
   display: flex;
   justify-content: center;
 }
-/*.site-flex{*/
-/* */
-/*}*/
+
 .aside-nav{
   background-color: #F5F4FA;
   font-family: 'Roboto';
@@ -140,7 +135,6 @@ color:var(--accent-color);
   border-radius: 4px;
   border: 2px solid #F5F4FA;
   padding: 6px 22px;
- /* width: calc(100% / 5 -30px) ;*/
   margin-left: 8px;
 }
 .aside-nav:focus,
@@ -161,8 +155,6 @@ color:var(--accent-color);
   width: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-bottom: 30px;
-  /*border: 1px solid #EEEEEE;*/
-  /*box-sizing: border-box;*/
 }
 .obligatory-title{
   padding-top: 20px;
