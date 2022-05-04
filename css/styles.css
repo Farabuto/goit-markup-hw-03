@@ -194,12 +194,9 @@ body{
 }
 .activity-cou-img{
     display: flex;
-    position: relative;
-
 }
 .activity-img{
-    display:flex;
-    display: block;
+    flex-basis: calc((100% - 30px) / 3);
 }
 .activity-cou-img .activity-item:not(:last-child){
     margin-left: 30px;
