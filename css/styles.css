@@ -42,6 +42,7 @@ body{
 }
 .nav{
     display: flex;
+    display: contents;
 }
 .logo {
     color: #212121;
@@ -50,23 +51,20 @@ body{
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    margin-top: 24px;
-}
+    }
 .logo-header {
     margin-right: 93px;
-    display: block;
     display: flex;
+    display: block;
 }
 .header-list {
     display: block;
     display: flex;
-
+    text-align: center;
 }
 .header-item{
     display: block;
     display: flex;
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 .header-item:not(:last-child){
     margin-right: 50px;
@@ -76,6 +74,8 @@ body{
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .site-nav:focus,
 .site-nav:hover,
@@ -112,7 +112,7 @@ body{
 /*---РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА---*/
 .padding-bottom{
     padding-bottom: 200px;
-    /*padding-top: 200px;*/
+    padding-top: 200px;
     background: #2F303A;
 }
 .title{
@@ -124,7 +124,7 @@ body{
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
-    padding-top: 200px;
+
 }
 .button{
     background-color:var(--accent-color);
@@ -196,6 +196,8 @@ body{
     display: flex;
 }
 .activity-img{
+    display: block;
+    width: 370px;
     flex-basis: calc((100% - 30px) / 3);
 }
 .activity-cou-img .activity-item:not(:last-child){
@@ -213,7 +215,7 @@ body{
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 .card{
     display: flex;
@@ -223,29 +225,26 @@ body{
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     background-color: #ffffff;
-    margin-right: 30px;
     max-width: 270px;
+}
+.heading-card:not(:last-child){
+    margin-right: 30px;
+}
+.img-block{
+    display: block;
+}
+.items-text{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .card-text{
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    padding-bottom: 10px;
-    padding-top: 30px;
+    margin-bottom: 10px;
     align-items: center;
     text-align: center;
 }
-.card-text{
-    align-items: center;
-    text-align: center;
-}
-/*.headline{*/
-/*    font-weight: 500;*/
-/*    font-size: 16px;*/
-/*    line-height: 19px;*/
-/*    padding-bottom: 10px;*/
-/*    padding-top: 30px;*/
-/*}*/
 .text{
     color: #757575;
     font-family: 'Roboto';
@@ -257,7 +256,6 @@ body{
 .cart-position{
     align-items: center;
     text-align: center;
-    padding-bottom: 30px;
 }
 /*---F-O-O-T-E-R---*/
 .footer {
