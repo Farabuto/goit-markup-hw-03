@@ -9,7 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+          integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css_portfolio/styles.css">
     <title>Document</title>
 </head>
@@ -18,28 +20,26 @@
     <!--cap-->
     <header class="page-header">
         <div class="container">
-                <a class="logo remove-underscores" href="#">
-                   <span class="logo-blu">Web</span>Studio
+            <nav class="nav">
+                <a class="logo remove-underscores logo-header" href="#">
+                    <span class="logo-blu">Web</span>Studio
                 </a>
-            <nav>
-                <ul class="remove-dots header-list">
-                    <li class="header-item"><a class="site-nav remove-underscores" href="./index.html">Студия</a></li>
+                <ul class="header-list remove-dots">
+                    <li class="header-item"><a class="site-nav remove-underscores " href="./index.html">Студия</a></li>
                     <li class="header-item"><a class="site-nav remove-underscores testimony" href="./portfolio.html">Портфолио</a></li>
-                    <li class="header-item"><a class="site-nav remove-underscores" href="/">Контакты</a></li>
+                    <li class="header-item"><a class="site-nav remove-underscores " href="/">Контакты</a></li>
                 </ul>
             </nav>
-            <div class="contact-flex">
-                <ul class="remove-dots header-contact">
-                    <li class="header-item"><a class="contact remove-underscores" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li class="header-item"><a class="contact remove-underscores" href="tel:+380961111111">+38 096 111 11 11</a></li>
-                </ul>
-            </div>
+            <ul class="header-contact remove-dots contact-flex">
+                <li class="header-item"><a class="contact remove-underscores" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="header-item"><a class="contact remove-underscores" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
         </div>
     </header>
     <main class="product">
     <!--services-->
     <section>
-        <div class="container">
+        <div class="container div-section">
             <ul class="aside remove-dots">
                 <li class="site-flex"><button class="aside-nav remove-underscores"> Все </button></li>
                 <li class="site-flex"><button class="aside-nav remove-underscores"> Веб-сайты </button></li>
