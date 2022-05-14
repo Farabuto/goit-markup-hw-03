@@ -39,14 +39,15 @@ body {
 * {
   color:#212121;
 }
-
+img{
+  display: block;
+}
 header{
   border-bottom: 1px solid #ECECEC;
 }
 /*---------H-E-A-D-E-R---------*/
 .page-header{
   border-bottom: 1px solid #ECECEC;
-  margin-bottom: 94px;
 }
 .page-header .container  {
   display: flex;
@@ -147,8 +148,9 @@ header{
 .logo-blu{
   color: #2196F3;
 }
-.div-section{
+.pad-section{
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 .aside{
   margin-bottom: 50px;
